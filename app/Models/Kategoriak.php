@@ -6,5 +6,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class Kategoriak extends Model
 {
-    //
+    protected $fillable = [
+        'katnev'
+    ];
+
+    
 }
